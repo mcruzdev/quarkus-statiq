@@ -12,6 +12,7 @@ import java.util.Set;
 import java.util.function.Consumer;
 import java.util.stream.Stream;
 
+import io.quarkiverse.roq.data.deployment.converters.JsonObjectConverter;
 import io.quarkiverse.roq.data.deployment.items.RoqDataJsonBuildItem;
 import io.quarkiverse.roq.deployment.items.RoqProjectBuildItem;
 import io.quarkus.deployment.annotations.BuildProducer;
